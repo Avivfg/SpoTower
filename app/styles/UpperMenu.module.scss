@@ -1,0 +1,58 @@
+.leftItem{
+    float: left;
+    padding: 20px;
+    
+}
+.leftItem:hover{
+    color: #00704a;
+}
+.rightItem{
+    float: right;
+    font-size: small;
+    padding: 20px;
+    
+}
+.rightItem:hover{
+    color: #00704a;
+}
+.signInButton{
+    float: right;
+    font-weight: bold;
+    background-color: white;
+    border-style: outset;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+.signInButton:hover{
+    background-color: lightgrey;
+}
+.joinNowButton{
+    float: right;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-style: outset;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+.joinNowButton:hover{
+    background-color: grey;
+}
+
+.image{
+    float: left;
+    max-width:100px;
+    max-height:100px;
+}
+.container{
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    justify-content: flex-start;
+}
