@@ -1,4 +1,20 @@
 .form {
     max-width: 300px;
     margin: 0 auto;
-  }
+}
+
+.upperMenu{
+    position: relative;
+    margin-bottom: 50px;
+    top: 20px;
+    border-bottom-style: outset;
+    border-bottom-width: 0px;
+    border-bottom-color: grey;
+    box-shadow: 0px 2px 0px 0 rgba(128, 128, 128, 0.219);
+    width:90%;
+    height: 120px;
+}
+.title{
+  text-align: center;
+  margin: 20px;
+}

@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import styles from "../styles/SignIn.module.scss";
 // import { useRouter } from "next/router";
+import UpperMenu from "../components/UpperMenu";
 
 const SignInPage = () => {
   const [email, setEmail] = useState("");
@@ -48,7 +49,10 @@ const SignInPage = () => {
 
   return (
     <div>
-      <h1>Sign in or create an account</h1>
+      <div className={styles.upperMenu}>
+        <UpperMenu showIcon={true} showRest={false}></UpperMenu>
+      </div>
+      <h1 className={styles.title}>Sign in or create an account</h1>
       <form className={styles.form}>
         <label>
           Email:
