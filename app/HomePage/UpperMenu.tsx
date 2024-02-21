@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import styles from "./../../styles/UpperMenu.module.scss";
+import styles from "./../styles/UpperMenu.module.scss";
 import Link from "next/link";
 
 const UpperMenu = () => {

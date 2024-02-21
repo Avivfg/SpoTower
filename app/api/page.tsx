@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import styles from "../../styles/SignIn.module.scss";
+import styles from "../styles/SignIn.module.scss";
 // import { useRouter } from "next/router";
 
 const SignInPage = () => {
